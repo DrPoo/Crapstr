@@ -30,7 +30,7 @@ $(document).ready(function() {
 	        mapOptions);
 
 	    //Add controls
-	    var pooButton = $('<div class="control" style="zIndex: 1;">poo</div>');
+	    var pooButton = $('<div class="control" style="zIndex: 1;"><img src="static/graylet.png" /></div>');
 	    pooButton.click(function() {
 	    	if (!pooButton.hasClass('selected')) {
 	    		$('.selected').removeClass('selected');
@@ -43,7 +43,7 @@ $(document).ready(function() {
 	    		map.controls[google.maps.ControlPosition.TOP_CENTER].pop();
 	    	}
 	    });
-	    var searchButton = $('<div class="control" style="zIndex: 1;">search</div>');
+	    var searchButton = $('<div class="control" style="zIndex: 1;"><img src="static/graylet.png" /></div>');
 	    searchButton.click(function() {
 	    	if (!searchButton.hasClass('selected')) {
 	    		$('.selected').removeClass('selected');
